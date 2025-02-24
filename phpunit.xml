@@ -10,7 +10,7 @@
          processIsolation="false"
          stopOnFailure="false">
     <testsuites>
-        <testsuite name="NestDigital Test Suite">
+        <testsuite name="FiveGestor Test Suite">
             <directory suffix=".php">./tests</directory>
         </testsuite>
     </testsuites>

@@ -1,10 +1,10 @@
 <?php
 
-namespace Nestdigital\Test\Unit;
+namespace FiveGestor\Test\Unit;
 
 use Exception;
-use Nestdigital\Asaas\Facade\Asaas as FacadeAsaas;
-use Nestdigital\Test\TestCase;
+use FiveGestor\Asaas\Facade\Asaas as FacadeAsaas;
+use FiveGestor\Test\TestCase;
 
 class BillPaymentTest extends TestCase
 {

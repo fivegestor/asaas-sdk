@@ -1,9 +1,9 @@
 <?php
 
-namespace Nestdigital\Test\Unit;
+namespace FiveGestor\Test\Unit;
 
-use Nestdigital\Asaas\Facade\Asaas as FacadeAsaas;
-use Nestdigital\Test\TestCase;
+use FiveGestor\Asaas\Facade\Asaas as FacadeAsaas;
+use FiveGestor\Test\TestCase;
 
 class PaymentTest extends TestCase
 {

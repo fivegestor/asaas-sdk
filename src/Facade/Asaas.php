@@ -1,6 +1,6 @@
 <?php
 
-namespace Nestdigital\Asaas\Facade;
+namespace FiveGestor\Asaas\Facade;
 
 use Illuminate\Support\Facades\Facade as IlluminateFacade;
 

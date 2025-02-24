@@ -1,6 +1,6 @@
 <?php
 
-namespace Nestdigital\Asaas\Api;
+namespace FiveGestor\Asaas\Api;
 
 class Payment extends ApiAdapter
 {

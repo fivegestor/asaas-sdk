@@ -1,9 +1,9 @@
 <?php
 
-namespace Nestdigital\Test;
+namespace FiveGestor\Test;
 
-use Nestdigital\Asaas\Facade\AsaasFacade;
-use Nestdigital\Asaas\ServiceProviders\ServiceProvider;
+use FiveGestor\Asaas\Facade\AsaasFacade;
+use FiveGestor\Asaas\ServiceProviders\ServiceProvider;
 
 abstract class TestCase extends \Orchestra\Testbench\TestCase
 {

@@ -1,26 +1,26 @@
 <?php
 
-namespace Nestdigital\Asaas\ServiceProviders;
+namespace FiveGestor\Asaas\ServiceProviders;
 
 use GuzzleHttp\Client;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
-use Nestdigital\Asaas\Api\Account;
-use Nestdigital\Asaas\Api\Anticipation;
-use Nestdigital\Asaas\Api\BillPayment;
-use Nestdigital\Asaas\Api\Customer;
-use Nestdigital\Asaas\Api\FinancialTransactions;
-use Nestdigital\Asaas\Api\FiscalInformation;
-use Nestdigital\Asaas\Api\Installment;
-use Nestdigital\Asaas\Api\Invoice;
-use Nestdigital\Asaas\Api\Notification;
-use Nestdigital\Asaas\Api\Payment;
-use Nestdigital\Asaas\Api\PaymentDunning;
-use Nestdigital\Asaas\Api\PaymentLink;
-use Nestdigital\Asaas\Api\Serasa;
-use Nestdigital\Asaas\Api\Subscription;
-use Nestdigital\Asaas\Api\Webhook;
-use Nestdigital\Asaas\Asaas;
+use FiveGestor\Asaas\Api\Account;
+use FiveGestor\Asaas\Api\Anticipation;
+use FiveGestor\Asaas\Api\BillPayment;
+use FiveGestor\Asaas\Api\Customer;
+use FiveGestor\Asaas\Api\FinancialTransactions;
+use FiveGestor\Asaas\Api\FiscalInformation;
+use FiveGestor\Asaas\Api\Installment;
+use FiveGestor\Asaas\Api\Invoice;
+use FiveGestor\Asaas\Api\Notification;
+use FiveGestor\Asaas\Api\Payment;
+use FiveGestor\Asaas\Api\PaymentDunning;
+use FiveGestor\Asaas\Api\PaymentLink;
+use FiveGestor\Asaas\Api\Serasa;
+use FiveGestor\Asaas\Api\Subscription;
+use FiveGestor\Asaas\Api\Webhook;
+use FiveGestor\Asaas\Asaas;
 
 class ServiceProvider extends IlluminateServiceProvider
 {
