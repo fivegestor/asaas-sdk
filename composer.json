@@ -1,16 +1,16 @@
 {
-    "name": "fivedigital/asaas-sdk",
+    "name": "fivegestor/asaas-sdk",
     "description": "SDK para integração com a API Asaas - FiveDigital",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "FiveDigital\\AsaasSdk\\": "src/"
+            "FiveGestor\\AsaasSdk\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "FiveDigital\\AsaasSdk\\Tests\\": "tests/"
+            "FiveGestor\\AsaasSdk\\Tests\\": "tests/"
         }
     },
     "authors": [
@@ -31,7 +31,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "FiveDigital\\AsaasSdk\\ServiceProviders\\ServiceProvider"
+                "FiveGestor\\AsaasSdk\\ServiceProviders\\ServiceProvider"
             ]
         }
     }
