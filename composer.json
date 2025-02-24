@@ -5,12 +5,12 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "FiveGestor\\AsaasSdk\\": "src/"
+            "FiveGestor\\Asaas\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "FiveGestor\\AsaasSdk\\Tests\\": "tests/"
+            "FiveGestor\\Asaas\\Tests\\": "tests/"
         }
     },
     "authors": [
@@ -31,7 +31,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "FiveGestor\\AsaasSdk\\ServiceProviders\\ServiceProvider"
+                "FiveGestor\\Asaas\\ServiceProviders\\ServiceProvider"
             ]
         }
     }
