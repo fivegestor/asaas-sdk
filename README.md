@@ -31,9 +31,9 @@ Para instalar o pacote é necessário informar, no composer.json, o repositório
 
 ```json
 "repositories": {
-    "nestdigital/asaas" : {
+    "fivedigital/asaas" : {
         "type" : "vcs",
-        "url" : "https://github.com/danielsmelo/nestdigital-asaas.git"
+        "url" : "https://github.com/fivegestor/asaas-sdk"
     }
 }
 ```
@@ -42,7 +42,7 @@ Informe também a dependência na tag require.
 
 ```json
 "require": {
-    "nestdigital/asaas": "1.0^",
+    "fivedigital/asaas": "1.0^",
 }
 ```
 ## Como Usar
@@ -57,7 +57,7 @@ Instancie a classe Asaas do pacote e chame cada função de forma encadeada. As 
 
 ```php
 // Referencie o namespace do pacote
-use NestDigital\Asaas;
+use FiveDigital\Asaas;
 
 // Instancie uma novo objeto Asaas
 $asaas = new Asaas();
