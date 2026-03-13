@@ -11,43 +11,6 @@ class Payment extends ApiAdapter
         return $this->post('payments', $this->options);
     }
 
-    public function createCreditCard(array $paymentData, array $creditCard, array $creditCardHolderInfo)
-    {
-        $paymentData['billingType'] = 'CREDIT_CARD';
-        $paymentData['creditCard'] = $creditCard;
-        $paymentData['creditCardHolderInfo'] = $creditCardHolderInfo;
-
-        $this->options['body'] = json_encode($paymentData);
-
-        return $this->post('payments', $this->options);
-    }
-
-    public function createCreditCardTokenize(array $paymentData, string $creditCardToken)
-    {
-        $paymentData['billingType'] = 'CREDIT_CARD';
-        $paymentData['creditCardToken'] = $creditCardToken;
-
-        $this->options['body'] = json_encode($paymentData);
-
-        return $this->post('payments', $this->options);
-    }
-
-    public function createPix(array $paymentData)
-    {
-        $paymentData['billingType'] = 'PIX';
-        $this->options['body'] = json_encode($paymentData);
-
-        return $this->post('payments', $this->options);
-    }
-
-    public function createBoleto(array $paymentData)
-    {
-        $paymentData['billingType'] = 'BOLETO';
-        $this->options['body'] = json_encode($paymentData);
-
-        return $this->post('payments', $this->options);
-    }
-
     public function find(string $paymentId = null)
     {
         if ($paymentId == null) {
